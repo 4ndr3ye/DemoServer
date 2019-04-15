@@ -1,14 +1,15 @@
 package main
 
 import (
+	"crypto/tls"
+	"fmt"
+	"log"
+	"net/http"
+
 	"github.com/4ndr3ye/DemoServer/handler"
 	"github.com/4ndr3ye/DemoServer/middleware"
 	"github.com/4ndr3ye/DemoServer/model"
-	"crypto/tls"
-	"fmt"
 	"github.com/gorilla/mux"
-	"log"
-	"net/http"
 )
 
 func main() {

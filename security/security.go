@@ -1,10 +1,11 @@
 package security
 
 import (
-	"github.com/dgrijalva/jwt-go"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/dgrijalva/jwt-go"
 )
 
 type Claims struct {

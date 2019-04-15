@@ -1,10 +1,11 @@
 package middleware
 
 import (
-	"github.com/4ndr3ye/DemoServer/handler"
-	"github.com/4ndr3ye/DemoServer/security"
 	"log"
 	"net/http"
+
+	"github.com/4ndr3ye/DemoServer/handler"
+	"github.com/4ndr3ye/DemoServer/security"
 )
 
 func AuthMiddleware(next http.HandlerFunc) http.HandlerFunc {
