@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"DemoServer/handler"
-	"DemoServer/security"
+	"github.com/4ndr3ye/DemoServer/handler"
+	"github.com/4ndr3ye/DemoServer/security"
 	"log"
 	"net/http"
 )

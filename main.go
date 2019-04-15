@@ -1,9 +1,9 @@
 package main
 
 import (
-	"DemoServer/handler"
-	"DemoServer/middleware"
-	"DemoServer/model"
+	"github.com/4ndr3ye/DemoServer/handler"
+	"github.com/4ndr3ye/DemoServer/middleware"
+	"github.com/4ndr3ye/DemoServer/model"
 	"crypto/tls"
 	"fmt"
 	"github.com/gorilla/mux"

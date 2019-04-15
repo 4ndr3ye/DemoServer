@@ -1,9 +1,9 @@
 package handler
 
 import (
-	"DemoServer/model"
-	"DemoServer/security"
-	"DemoServer/static"
+	"github.com/4ndr3ye/DemoServer/model"
+	"github.com/4ndr3ye/DemoServer/security"
+	"github.com/4ndr3ye/DemoServer/static"
 	"crypto/sha1"
 	"encoding/hex"
 	"encoding/json"
